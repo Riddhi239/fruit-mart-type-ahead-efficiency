@@ -1,0 +1,8 @@
+<h1>Fruit Mart</h1>
+<input type="text" #inputData>
+<div style="padding: 30px;">
+  <h3>RxJS Suggestions <span>{{rxjsFilterCountBox}}</span></h3>
+  <ul *ngFor="let item of searched_fruit">
+    <li>{{item}}</li>
+  </ul>
+</div>
